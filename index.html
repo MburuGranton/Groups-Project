@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groups</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <h1>Fill the following important information</h1>
+
+    <label for="number">Please input your required number per group:</label> <input type="number" name="numberPerGroup" id="chunkSize" required><br>
+
+    <button onclick="divide(totalData,document.getElementById('chunkSize').value)">
+        Click To get total number of groups
+    </button>
+
+
+    <hr>
+    <button onclick="randomize()">Randomize</button>
+    <hr>
+    <div id="container">
+
+    </div>
+
+
+
+    <script src="script2.js"></script>
+
+</body>
+
+</html>
